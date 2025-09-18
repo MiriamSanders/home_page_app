@@ -1,18 +1,22 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
         <header className="blog-header">
             <div className="header-container">
-                <a href="#" className="logo"><img src="logo.png"></img></a>
+                <Link to="/" className="logo">
+                    <img src="logo.png" alt="Logo" />
+                </Link>
 
-                <nav className={'nav'}>
-                    <a href="#" className="nav-link">Home</a>
-                    <a href="#" className="nav-link">About</a>
-                    <a href="#" className="nav-link">Contact</a>
+                <nav className="nav">
+                    <Link to="/" className="nav-link">Home</Link>
+                    <Link to="/about" className="nav-link">About</Link>
+                    <Link to="/contact" className="nav-link">Contact</Link>
                 </nav>
-
             </div>
         </header>
-    )
+    );
 }
+
 export default Header;

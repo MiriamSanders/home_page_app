@@ -1,0 +1,145 @@
+/* Page Layout */
+.contact-page {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+/* Hero */
+.contact-hero {
+    background-color: #a1887f;
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.contact-hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.contact-hero p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Main Container */
+.contact-main-container {
+    display: flex;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+}
+
+/* Contact Form */
+.contact-form-container {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-form-container h2 {
+    color: #8d6e63;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.75rem 1rem;
+    border: 2px solid #bcaaa4;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: #8d6e63;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #f4a261;
+}
+
+.contact-form button {
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #a1887f;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #bfa48f;
+}
+
+/* Sidebar */
+.contact-sidebar {
+    width: 320px;
+    flex-shrink: 0;
+}
+
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    background-color: #bcaaa4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto 1rem;
+}
+
+.profile-text {
+    color: #8d6e63;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.sidebar-section {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+}
+
+.sidebar-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #8d6e63;
+}
+
+.popular-post {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.popular-post-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #8d6e63;
+}
+
+.popular-post-date {
+    font-size: 0.75rem;
+    color: #bcaaa4;
+}

@@ -14,7 +14,6 @@ export default function BlogHomepage() {
 
   return (
     <div className="blog-container">
-      <Header />
       <div className={`main-container`}>
         <SideBar activeCategory={activeCategory} setActiveCategory={setActiveCategory}></SideBar>
         <main className="main-content">
