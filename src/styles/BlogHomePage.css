@@ -14,53 +14,7 @@ html, body {
 }
 
 /* Header Styles */
-.blog-header {
-  background-color: #8d6e63;
-  color: white;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
 
-.header-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 64px;
-}
-
-.logo img {
-    height: 75px;
-}
-
-.nav {
-  display: flex;
-  gap: 2rem;
-}
-
-.nav-hidden {
-  display: none;
-}
-
-.nav-link {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.2s;
-}
-
-.nav-link:hover {
-  color: #f4a261;
-}
-
-.main-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-  display: flex;
-  gap: 2rem;
-}
 /* Sidebar Styles */
 .sidebar {
   width: 320px;
